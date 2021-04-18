@@ -28,7 +28,7 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus  #京东
 
 git clone https://github.com/pymumu/openwrt-smartdns  #smartdns
 
-git clone https://github.com/pymumu/luci-app-smartdns/tree/lede  #smartdns
+git clone https://github.com/pymumu/luci-app-smartdns.git  #smartdns
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
