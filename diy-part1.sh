@@ -25,6 +25,3 @@ git clone https://github.com/vernesong/OpenClash.git
 pushd package/lean
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon luci-theme-argon
-popd
-# Edge主题
-git clone -b 18.06 https://github.com/garypang13/luci-theme-edge package/luci-theme-edge
