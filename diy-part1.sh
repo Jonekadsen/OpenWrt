@@ -16,13 +16,7 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-j
 git clone https://github.com/pymumu/smartdns.git
 #smartdns界面
 git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
-#OpenClash
-curl -sL -m 30 --retry 2 https://github.com/vernesong/OpenClash/releases/download/Clash/clash-"$CPU_MODEL".tar.gz -o /tmp/clash.tar.gz
-tar zxvf /tmp/clash.tar.gz -C /tmp >/dev/null 2>&1
-chmod +x /tmp/clash >/dev/null 2>&1
-mkdir -p .../package/luci-app-openclash/files/etc/openclash/core
-mv /tmp/clash .../package/luci-app-openclash/files/etc/openclash/core/clash >/dev/null 2>&1
-rm -rf /tmp/clash.tar.gz >/dev/null 2>&1
+
 
 
 # argon主题
