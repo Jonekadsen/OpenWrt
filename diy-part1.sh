@@ -4,8 +4,6 @@ git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 git clone https://github.com/fw876/helloworld package/helloworld
 #passswall
 git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
-#adguardhome
-git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 #smartdns
 git clone https://github.com/pymumu/smartdns.git
 #smartdns界面
