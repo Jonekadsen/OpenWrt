@@ -1,3 +1,5 @@
+#git lua-maxminddb 依赖
+git clone https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
 #helloworld
 git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 #ssrplus
