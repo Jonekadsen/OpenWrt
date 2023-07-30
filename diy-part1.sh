@@ -29,7 +29,8 @@ git clone https://github.com/fw876/helloworld package/helloworld
 #git clone https://github.com/pymumu/smartdns.git
 #smartdns界面
 #git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
-
+#bypass源
+git clone https://github.com/haiibo/openwrt-packages package/openwrt-packages
 
 
 # argon主题
