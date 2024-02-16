@@ -171,7 +171,7 @@ jobs:
         echo "status=success" >> $GITHUB_OUTPUT
 
     - name: Upload firmware to release
-      uses: softprops/action-gh-release@v1
+      uses: softprops/action-gh-release@main
       if: steps.tag.outputs.status == 'success' && !cancelled()
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -187,7 +187,7 @@ jobs:
         keep_minimum_runs: 30
 
     - name: Remove old Releases
-      uses: dev-drprasad/delete-older-releases@v0.2.1
+      uses: dev-drprasad/delete-older-releases@main
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       with:
         keep_latest: 30
